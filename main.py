@@ -52,8 +52,5 @@ fig.add_trace(go.Scatter(x=[mean, mean], y=[0, 0.20], mode="lines", name="MEAN")
 #fig.show()
 
 
-sd1_start,sd1_end=mean-sd,mean+sd
-sd2_start,sd2_end=mean-(2*sd),mean+(2*sd)
-sd3_start,sd3_end=mean-(3*sd),mean+(3*sd)
 
 
